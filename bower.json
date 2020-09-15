@@ -1,0 +1,27 @@
+{
+    "name": "xpwebsocket",
+    "version": "1.0.0",
+    "authors": [
+        "Josef van Niekerk <josef.van.niekerk@gmail.com>"
+    ],
+    "description": "XP WebSocket FrontEnd",
+    "license": "MIT",
+    "private": true,
+    "dependencies": {
+        "backbone": "1.1.*",
+        "jquery": "2.*",
+        "normalize.css": "*",
+        "pixi.js": "2.*",
+        "stats.js": "*"
+    },
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "devDependencies": {
+        "requirejs-babel": "*"
+    }
+}

@@ -1,0 +1,26 @@
+body {
+  background: #707f7f;
+  background: linear-gradient(to bottom, rgba(85, 103, 103, 0.85), rgba(70, 98, 98, 0.55), rgba(85, 103, 103, 0.85)), url(../images/panel.jpg); }
+
+div.gauges {
+  max-width: 1200px;
+  margin: 0 auto; }
+  div.gauges span {
+    display: inline-block;
+    position: relative; }
+  div.gauges div#stats {
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+@media (max-width: 400px) {
+  div.gauges span {
+    width: 100%; } }
+
+@media (min-width: 401px) and (max-width: 800px) {
+  div.gauges span {
+    width: 50%; } }
+
+@media (min-width: 801px) {
+  div.gauges span {
+    width: 33.33333%; } }
